@@ -8,8 +8,11 @@ export class Footer extends Component{
     render(){
         return(
             <footer id="footer">
-                
+                <div className="container-copyright">                    
+                    <p className="text-muted mp0">Echo con <i class="fa fa-heart"></i> por <a href="https://edgarpezoa.cl/"><strong><i>Edgar Pezoa</i></strong></a></p>
+                </div>
             </footer>
+            
         )
     }
 }

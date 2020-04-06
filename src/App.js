@@ -12,7 +12,15 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 
 //Librerias
-
+  // CSS
+    import 'bootstrap/dist/css/bootstrap.min.css';
+    import 'font-awesome/css/font-awesome.min.css';
+    import './assets/dist/animatecss/animate.css';
+    import './assets/css/main.css';
+  // JS
+    import $ from 'jquery/dist/jquery.min.js';
+    import 'bootstrap/dist/js/bootstrap.min.js';
+    
 
 function App() {
   return (

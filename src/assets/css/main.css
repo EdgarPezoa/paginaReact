@@ -1,3 +1,45 @@
 .App{
     text-align: center;
 }
+
+.mp0{
+    padding: 0;
+    margin: 0;
+}
+
+.imgBackground{
+    background-image: url('../img/la.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:80vh;
+}
+
+.titleTextContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleText{
+    color:lightgreen;
+}
+
+#footer{
+    background-color: #f8f9fa;
+    padding: 10px;
+    width:100%;
+    display: flex;
+    align-content: center;
+}
+
+.container-copyright{
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    footer{
+        text-align: center;
+        display: block;
+    }
+}
