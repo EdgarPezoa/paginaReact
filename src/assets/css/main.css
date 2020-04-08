@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+.dCenter{
+    display: flex;
+    justify-content: center;
+}
+
 .imgBackground{
     background-image: url('../img/la.jpg');
     background-repeat: no-repeat;
@@ -23,6 +28,20 @@
 
 .titleText{
     color:lightgreen;
+}
+
+.obligatorio{
+    color:red;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 80%;
 }
 
 #footer{
